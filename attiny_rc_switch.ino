@@ -8,6 +8,7 @@
 #define CHANNEL_PIN 0
 #define OUTPUT_PIN 3
 #define LPF_FACTOR 0.5
+#define PULSE_THRESHOLD 1700
 
 volatile unsigned long rising_start = 0;
 volatile long channel_length = 0;
@@ -99,7 +100,7 @@ void onChange(void) {
 
 void loop() {
 
-  if (channel_length > 1700) {
+  if (channel_length > PULSE_THRESHOLD) {
     digitalWrite(OUTPUT_PIN, HIGH);
   } else {
     digitalWrite(OUTPUT_PIN, LOW);
