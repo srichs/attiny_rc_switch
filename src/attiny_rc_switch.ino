@@ -1,9 +1,11 @@
-/* Original Code: https://github.com/DzikuVx/attiny_rc_switch */
+// Original code https://github.com/DzikuVx/attiny_rc_switch
 #include <avr/sleep.h>
-#include <avr/wdt.h>
 #include <PinChangeInterrupt.h>
 
+#ifndef SLEEP_MODE_PWR_SAVE
 #define SLEEP_MODE_PWR_SAVE     (_BV(SM0) | _BV(SM1))
+#endif
+
 #define adc_disable() (ADCSRA &= ~(1<<ADEN)) // disable ADC (before power-off)
 #define adc_enable()  (ADCSRA |=  (1<<ADEN)) // re-enable ADC
 #define CHANNEL_PIN 0
@@ -14,7 +16,6 @@
 volatile unsigned long rising_start = 0;
 volatile long channel_length = 0;
 volatile long channel_raw = 0;
-bool state = false;
 
 void enterSleep(void) {
   set_sleep_mode(SLEEP_MODE_PWR_SAVE); // sleep mode is set here
