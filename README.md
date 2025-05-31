@@ -14,7 +14,7 @@ To program you can use the [AVR Pocket Programmer](https://www.digikey.com/en/pr
 
 ![3D PCB](res/attiny_rc_switch_pcb_3d_model.png)
 
-Order the PCB [here](https://oshpark.com/shared_projects/kK0Np74q)
+Order the PCB [here](https://oshpark.com/shared_projects/eeDahjbz)
 
 ## Hardware
 
