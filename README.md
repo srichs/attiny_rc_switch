@@ -12,7 +12,7 @@ To program you can use the [AVR Pocket Programmer](https://www.digikey.com/en/pr
 
 ## ATtiny RC Switch SMD
 
-![3D PCB](res/attiny_rc_switch.png)
+![3D PCB](res/attiny_rc_switch_pcb_3d_model.png)
 
 Order the PCB [here](https://oshpark.com/shared_projects/kK0Np74q)
 
@@ -60,7 +60,7 @@ Order the PCB [here](https://oshpark.com/)
 
 ### Schematic
 
-![diagram](res/attiny_rc_switch_th_pcb_schematic.png)
+![diagram](res/attiny_rc_switch_th_schematic.png)
 
 ## Notes
 
@@ -68,4 +68,4 @@ Order the PCB [here](https://oshpark.com/)
 
 * ATtiny45/85 board definitions. Tested with [damellis/attiny](https://github.com/damellis/attiny)
 
-* Uses 8MHz internal osciallator 
+* Uses 1MHz internal osciallator 
