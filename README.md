@@ -14,7 +14,7 @@ To program you can use the [AVR Pocket Programmer](https://www.digikey.com/en/pr
 
 ![3D PCB](res/attiny_rc_switch_pcb_3d_model.png)
 
-Order the PCB [here](https://oshpark.com/shared_projects/eeDahjbz)
+Order the PCB [here](https://oshpark.com/shared_projects/qRILFycT)
 
 ## Hardware
 
@@ -30,8 +30,8 @@ Order the PCB [here](https://oshpark.com/shared_projects/eeDahjbz)
 | D1 | LTST-C190KRKT | Red LED, SMD 0603, Clear | 1 | $0.14 | [DigiKey](https://www.digikey.com/en/products/detail/liteon/LTST-C190KRKT/386817) |
 | R1,R2 | CRGCQ0603F470R | 470 Ohm Resistor, SMD 0603, 1/10W | 2 | $0.20 | [DigiKey](https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F470R/8576286) |
 | C1 | CC0603KRX7R7BB104 | 0.1uF Capacitor, SMD 0603, 16V | 1 | $0.08 | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822) |
-|  | eeDahjbz | PCB | 1 | $0.60 | [OSH Park](https://oshpark.com/shared_projects/eeDahjbz) |
-|  |  |  | Total | $2.95 |  |
+|  | qRILFycT | PCB | 1 | $0.68 | [OSH Park](https://oshpark.com/shared_projects/qRILFycT) |
+|  |  |  | Total | $3.03 |  |
 
 ### Schematic
 
